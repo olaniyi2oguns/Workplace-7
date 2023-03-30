@@ -38,7 +38,7 @@ Mount lv-logs on /mnt/logs (this will be used by webserver logs)
 
 Mount lv-opt on /mnt/opt  (this will be used by jenkins in the next project)
 
-NOTE: if you follow the insectructions very well you should have the output that looks like the one below after running command `lsblk`
+NOTE: if you follow the insectructions very well you should have the output that looks like the one below after running command `sudo lsblk`
 
 ![lsblk](./images/lsblk2.jpg)
 
