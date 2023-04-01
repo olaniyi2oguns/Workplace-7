@@ -249,9 +249,9 @@ On your db server, ensure that you check the binding address to connect from eve
 
 and make sure you restart mysql `sudo systemctl restart mysql`
 
-So, run this command
+So, run the command below on the webserver
 
-`mysql - <database-private-ip> -u <db-username> -p <db-password> < tooling-db.sql`
+`mysql -h <database-private-ip> -u <db-username> -p <name of database> < tooling-db.sql`
 
 If it returns no error it means everything is working as expected.
 
